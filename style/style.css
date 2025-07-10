@@ -1,0 +1,151 @@
+/* General navbar layout */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Fix: should be center, not left */
+  background-color: #3c5065;
+  padding: 10px 40px;
+}
+
+/* Left section (logo) */
+.nav-left .logo {
+  height: auto;
+  width: 50px;
+  margin-left: 0;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* Right section (links + button) */
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.nav-right a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Join button */
+.join-btn {
+  background: linear-gradient(to right, #a855f7, #3b82f6);
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.join-btn:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+.AboutUs h1{
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.AboutUs p{
+    text-align: center;
+    margin-top: 0;
+    grid-area: navbar;
+}
+.AboutUs{
+    margin: 1em;
+    
+}
+.carousel-inner{
+  width: auto;
+  height: 700px;
+  object-fit: fill;
+  position: center;
+}
+
+.work-box {
+  background-color: #f8f9fa;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.work-box:hover {
+  transform: translateY(-5px);
+  background-color: #eef2ff;
+}
+
+.work-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.company-info {
+  background-color: #ffffff;
+  border-left: 5px solid #3b82f6;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.company-info h2 {
+  color: #1f2937;
+  font-weight: bold;
+}
+
+.company-info .highlight {
+  margin-top: 10px;
+  font-style: italic;
+  color: #2563eb;
+}
+
+.company-logo {
+  max-height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  filter: drop-shadow(0 0 0.5rem #3b82f6);
+}
+
+.footer {
+  background: linear-gradient(to right, #1e3a8a, #6d28d9); /* dark blue to purple */
+  color: white;
+  padding-top: 30px;
+}
+
+.footer h5,
+.footer h6 {
+  font-weight: bold;
+}
+
+.footer-link {
+  color: #cbd5e1;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer p {
+  margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+
